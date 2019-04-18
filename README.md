@@ -20,3 +20,5 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 - [loopbrake](https://github.com/princejain756/loopbrake) (`npx loopbrake`) - coding-agent edit-thrash, shell-write bypass (`39.2%` of source writes across 153 transcripts via `Bash` heredoc/`sed`/`.write_text()`), deleted-sandbox CWD escape, and consecutive tool-error doom-loop auditor + `PreToolUse`/`PostToolUse` circuit-breaker hook generator.
 - [clonesieve](https://github.com/princejain756/clonesieve) (`npx clonesieve`) - codebase structural function clone (`Type-2` normalized + `4`-gram Jaccard shingle), cross-file duplicate helper name (`370` duplicate names & `117` clone groups across `3,300` files), and zero-caller dead-export auditor + Claude Code and Codex blind-write transcript scanner (`39.0%` of new functions written before any `Grep`/`rg` search).
 - [canimcp](https://github.com/princejain756/canimcp) (`npx canimcp`) - preflight checker for MCP servers: which clients silently drop or mangle your tools, checked against a versioned quirks corpus (Claude Code, Cursor, Codex, Windsurf, Zed, Continue).
+
+## Developer experience & CLIs
