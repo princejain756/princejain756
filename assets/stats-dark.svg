@@ -68,3 +68,13 @@
       animation: rankAnimation 1s forwards ease-in-out;
     }
     
+    @keyframes rankAnimation {
+      from {
+        stroke-dashoffset: 251.32741228718345;
+      }
+      to {
+        stroke-dashoffset: 137.37463757487674;
+      }
+    }
+  
+  
