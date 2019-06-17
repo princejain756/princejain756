@@ -26,3 +26,8 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/grs
           cd /tmp/grs
+          npm install --omit=dev --ignore-scripts
+          node -e '
+            import fs from "node:fs";
+            let topLangsCode = fs.readFileSync("./src/fetchers/top-languages.js", "utf8");
+            topLangsCode = topLangsCode.replace("isFork: false, first: 100", "isFork: false, privacy: PUBLIC, first: 100");
