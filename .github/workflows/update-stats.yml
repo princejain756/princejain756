@@ -35,3 +35,7 @@ jobs:
             let statsCode = fs.readFileSync("./src/fetchers/stats.js", "utf8");
             statsCode = statsCode
               .replace("ownerAffiliations: OWNER, orderBy:", "ownerAffiliations: OWNER, privacy: PUBLIC, orderBy:")
+              .replace(/stargazers\s*\{\s*totalCount\s*\}/, "stargazerCount")
+              .replaceAll("stargazers.totalCount", "stargazerCount");
+            fs.writeFileSync("./src/fetchers/stats.js", statsCode);
+          '
