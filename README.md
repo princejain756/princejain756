@@ -30,3 +30,6 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 - [dep-census](https://github.com/princejain756/dep-census) - who actually maintains the code inside your `node_modules`.
 
 ## Live systems
+
+- [MaintainerOS](https://github.com/princejain756/MaintainerOS) - command center for open-source maintainers: repo health, stale backlog, security readiness, issue triage, PR review, Actions reports. Live at [maintaineros.prince.sh](https://maintaineros.prince.sh).
+- [Quantiti](https://quantiti.prince.sh) - live trading journal with real Zerodha Kite order routing.
