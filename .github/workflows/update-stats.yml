@@ -39,3 +39,7 @@ jobs:
               .replaceAll("stargazers.totalCount", "stargazerCount");
             fs.writeFileSync("./src/fetchers/stats.js", statsCode);
           '
+          node -e '
+            import { fetchStats } from "./src/fetchers/stats.js";
+            import { renderStatsCard } from "./src/cards/stats.js";
+            import { fetchTopLanguages } from "./src/fetchers/top-languages.js";
