@@ -110,3 +110,14 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
+          width="466"
+          fill="#0D1117"
+          stroke-opacity="0"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
