@@ -130,3 +130,15 @@
           data-testid="lang-progress"
           x="0"
           y="0"
+          width="228.55"
+          height="8"
+          fill="#3178c6"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="228.55"
+          y="0"
+          width="14.66"
+          height="8"
