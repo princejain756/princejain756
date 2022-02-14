@@ -36,3 +36,5 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 - Day job: built and still operate the full stack for [Bigg Bounce](https://biggbounce.com), a 30,000 sq ft entertainment park in Bengaluru - ticketing site, self-service kiosks, POS, QR turnstiles, Razorpay UPI reconciliation, rain-day transfers. 10,238 transactions recorded across 3,526 paid bookings and 7,116 POS orders, peaking at 994 tickets and 937 gate check-ins, backed by 46 Postgres migrations and a five-node Linux fleet.
 
 ## Upstream
+
+40 PRs merged across query engines, compilers, drivers, and SDKs:
