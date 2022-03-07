@@ -142,3 +142,16 @@
           y="0"
           width="14.66"
           height="8"
+          fill="#f1e05a"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="243.21"
+          y="0"
+          width="12.34"
+          height="8"
+          fill="#7355dd"
+        />
+      
