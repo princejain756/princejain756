@@ -155,3 +155,15 @@
           fill="#7355dd"
         />
       
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="245.55"
+          y="0"
+          width="11.879999999999999"
+          height="8"
+          fill="#3572A5"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
