@@ -48,3 +48,6 @@ jobs:
 
             const username = "princejain756";
             const stats = await fetchStats(username, true, [], false, false, false);
+            const topLangs = await fetchTopLanguages(username, [], 1, 0);
+            const outDir = "${{ github.workspace }}/assets";
+            fs.mkdirSync(outDir, { recursive: true });
