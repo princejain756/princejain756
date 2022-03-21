@@ -38,3 +38,7 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 ## Upstream
 
 40 PRs merged across query engines, compilers, drivers, and SDKs:
+
+- **BerriAI/litellm (Python):** aiohttp connection reset on early stream close for aborted Bedrock Invoke streams [#50657](https://github.com/BerriAI/litellm/pull/50657) merged.
+- **Arize-ai/phoenix (Python/TypeScript):** stepped perf_counter evaluator duration test [#17816](https://github.com/Arize-ai/phoenix/pull/17816) and Playwright auth setup idempotency & external resource isolation [#17818](https://github.com/Arize-ai/phoenix/pull/17818) merged.
+- **servo/rust-url (Rust):** reject backslashes in port state for non-special URLs [#1161](https://github.com/servo/rust-url/pull/1161) merged.
