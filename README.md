@@ -42,3 +42,6 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 - **BerriAI/litellm (Python):** aiohttp connection reset on early stream close for aborted Bedrock Invoke streams [#50657](https://github.com/BerriAI/litellm/pull/50657) merged.
 - **Arize-ai/phoenix (Python/TypeScript):** stepped perf_counter evaluator duration test [#17816](https://github.com/Arize-ai/phoenix/pull/17816) and Playwright auth setup idempotency & external resource isolation [#17818](https://github.com/Arize-ai/phoenix/pull/17818) merged.
 - **servo/rust-url (Rust):** reject backslashes in port state for non-special URLs [#1161](https://github.com/servo/rust-url/pull/1161) merged.
+- **tokio-rs/bytes (Rust):** `sign_extend` bounds assertion [#862](https://github.com/tokio-rs/bytes/pull/862) and minimal-versions CI check + serde floor [#863](https://github.com/tokio-rs/bytes/pull/863) merged.
+- **seanmonstar/reqwest (Rust):** start `read_timeout` timer when polling the next body frame [#3118](https://github.com/seanmonstar/reqwest/pull/3118) merged.
+- **agno-agi/agno (Python):** preserve all tool calls across streamed HuggingFace chunks [#11526](https://github.com/agno-agi/agno/pull/11526) merged; cumulative streaming usage fix for `OpenAILike` in [#11549](https://github.com/agno-agi/agno/pull/11549).
