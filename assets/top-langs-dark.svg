@@ -180,3 +180,16 @@
           data-testid="lang-progress"
           x="248.48000000000002"
           y="0"
+          width="10.55"
+          height="8"
+          fill="#89e051"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="249.03000000000003"
+          y="0"
+          width="10.54"
+          height="8"
+          fill="#F05138"
