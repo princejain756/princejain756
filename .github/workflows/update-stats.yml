@@ -61,3 +61,7 @@ jobs:
 
             fs.writeFileSync(`${outDir}/stats-dark.svg`, renderStatsCard(stats, {
               show_icons: true,
+              theme: "github_dark",
+              hide_border: true,
+              rank_icon: "github",
+              include_all_commits: true,
