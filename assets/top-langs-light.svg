@@ -193,3 +193,15 @@
           width="10.54"
           height="8"
           fill="#F05138"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="249.57000000000002"
+          y="0"
+          width="10.42"
+          height="8"
+          fill="#dea584"
+        />
+      
