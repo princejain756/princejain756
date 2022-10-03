@@ -65,3 +65,7 @@ jobs:
               hide_border: true,
               rank_icon: "github",
               include_all_commits: true,
+            }));
+
+            fs.writeFileSync(`${outDir}/top-langs-light.svg`, renderTopLanguages(topLangs, {
+              layout: "compact",
