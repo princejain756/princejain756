@@ -43,8 +43,6 @@ I'm a software developer based in India. I run Quantiti, ship client sites, and 
 - [readmeroast](https://github.com/princejain756/readmeroast) - score any GitHub README out of 100 and get roasted for what it's missing.
 - [MaintainerOS](https://github.com/princejain756/MaintainerOS) - a command center for open-source maintainers: repo health, stale backlog, security readiness, issue triage, PR review and GitHub Actions reports. Live at [maintaineros.prince.sh](https://maintaineros.prince.sh).
 
-Lately: auditing a silent integer-wrapping bug class at dynamic-to-static boundaries. Fixes in review on [kestra](https://github.com/kestra-io/kestra/pull/21206) and its upstream engine [pebble](https://github.com/PebbleTemplates/pebble/pull/842), a same-day founder fix on [windmill](https://github.com/windmill-labs/windmill/issues/11863), and a checked boundary conversion on [lancedb](https://github.com/lancedb/lancedb/pull/4584)'s Node.js bindings.
-
 ## In open source lately
 
 - pebble: fixed silent `long`-to-`int` narrowing in the `split`/`abbreviate`/`slice` filters ([#842](https://github.com/PebbleTemplates/pebble/pull/842)) and made large-number comparisons exact ([#843](https://github.com/PebbleTemplates/pebble/pull/843) - a bug open since 2021). Both merged.
