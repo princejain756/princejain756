@@ -51,4 +51,4 @@ I'm a software developer based in India. I run Quantiti, ship client sites, and 
 
 ## Elsewhere
 
-[prince.sh](https://prince.sh) · [Quantiti](https://q.prince.sh) · [LinkedIn](https://www.linkedin.com/in/prince-jain-267519194)
+[prince.sh](https://prince.sh) · [Quantiti](https://q.prince.sh) · [LinkedIn](https://www.linkedin.com/in/princejainai)
