@@ -24,7 +24,7 @@ Zero-dependency CLIs and web tools for teams shipping with coding agents and Mod
 - [mcp-bouncer](https://github.com/princejain756/mcp-bouncer) (`npx mcp-bouncer`) - policy-enforcement security proxy for stdio MCP servers: tool allowlists, method gating, path traversal and SSRF/private-IP blocking, rate limits, and JSONL audit logs.
 - [canimcp](https://github.com/princejain756/canimcp) (`npx canimcp`) - static and live preflight checker for MCP servers: checks `tools/list` schemas against a versioned client quirks corpus (Claude Code, Cursor, Codex, Windsurf, Zed, Continue).
 - [ruleherd](https://github.com/princejain756/ruleherd) (`npx ruleherd`) - audits agent instruction files (`CLAUDE.md`, `AGENTS.md`, `.cursor/rules`) for contradictions, dead file references, and duplicated rules.
-- [mcp-tax](https://github.com/princejain756/mcp-tax) (`npx mcp-tax`) - see how many tokens your MCP servers burn before you type a word.
+- [mcp-tax](https://github.com/princejain756/mcp-tax) (`npx mcp-tax`) - see how many tokens your MCP servers burn before you type a word. Also in Rust: [mcp-tax-rs](https://github.com/princejain756/mcp-tax-rs).
 - [MaintainerOS](https://github.com/princejain756/MaintainerOS) - a command center for open-source maintainers: repo health, stale backlog, security readiness, issue triage, PR review, and GitHub Actions reports. Live at [maintaineros.prince.sh](https://maintaineros.prince.sh).
 - [dep-census](https://github.com/princejain756/dep-census) & [readmeroast](https://github.com/princejain756/readmeroast) - dependency maintainer census for `node_modules` and automated GitHub README grading.
 
