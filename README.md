@@ -20,7 +20,7 @@ Zero-dependency CLIs and web tools for teams shipping with coding agents and Mod
 
 - [ctxvitals](https://github.com/princejain756/ctxvitals) (`npx ctxvitals`) - a Lighthouse for your AI agent stack: measures the real token cost of MCP servers, skills, and rules; flags security issues and duplicates; grades the setup A-F.
 - [agent-trials](https://github.com/princejain756/agent-trials) (`npx agent-trials`) - benchmark coding agent CLIs (Claude Code, Codex, Gemini) through the same JSON task suite in sandboxed repo copies, verifying results against fingerprinted test scripts.
-- [slopsieve](https://github.com/princejain756/slopsieve) (`npx slopsieve`) - score a diff or PR for 15 AI-slop review signals: test weakening, secret leaks, phantom imports, debug leftovers, trivial deps, and dead exports.
+- [slopsieve](https://github.com/princejain756/slopsieve) (`npx slopsieve`) - score a diff or PR for 15 AI-slop review signals: test weakening, secret leaks, phantom imports, debug leftovers, trivial deps, and dead exports. Also in Rust: [slopsieve-rs](https://github.com/princejain756/slopsieve-rs).
 - [mcp-bouncer](https://github.com/princejain756/mcp-bouncer) (`npx mcp-bouncer`) - policy-enforcement security proxy for stdio MCP servers: tool allowlists, method gating, path traversal and SSRF/private-IP blocking, rate limits, and JSONL audit logs.
 - [canimcp](https://github.com/princejain756/canimcp) (`npx canimcp`) - static and live preflight checker for MCP servers: checks `tools/list` schemas against a versioned client quirks corpus (Claude Code, Cursor, Codex, Windsurf, Zed, Continue).
 - [ruleherd](https://github.com/princejain756/ruleherd) (`npx ruleherd`) - audits agent instruction files (`CLAUDE.md`, `AGENTS.md`, `.cursor/rules`) for contradictions, dead file references, and duplicated rules.
@@ -33,8 +33,8 @@ Zero-dependency CLIs and web tools for teams shipping with coding agents and Mod
   <img src="https://github-readme-stats.vercel.app/api?username=princejain756&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" height="160">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=princejain756&layout=compact&theme=github_dark&hide_border=true&langs_count=8">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princejain756&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="160">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=princejain756&layout=compact&theme=github_dark&hide_border=true&langs_count=8&hide=css,html,vue,mdx">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princejain756&layout=compact&hide_border=true&langs_count=8&hide=css,html,vue,mdx" alt="Top languages" height="160">
 </picture>
 
 ## Elsewhere
