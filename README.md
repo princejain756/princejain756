@@ -1,5 +1,3 @@
-# Prince Jain
-
 Co-Founder & Head of Technology at **Adelev8** in Bengaluru, India.
 
 I build and operate production systems end to end: the venue-operations software for [Bigg Bounce](https://biggbounce.com) (a 30,000 sq ft entertainment park running direct ticketing, self-service kiosks, cashier POS, ESC/POS thermal printing, QR turnstiles, Razorpay UPI reconciliation, and rain-day ticket transfers; Rs 80 lakh+ recorded across 2,900+ paid bookings and 6,500+ POS orders in its first 20 days, backed by 46 Postgres migrations), client commerce and ERP stacks, [Quantiti](https://q.prince.sh), and a five-node Linux fleet (26 CPUs, 105.7 GiB RAM, 51 Docker containers, 49 PM2 services, ~134 nginx hostnames).
