@@ -1,36 +1,5 @@
 # Prince Jain
 
-```
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜🏻🏽🏾🏿🏾🏽🏻⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜🏻🏽⬛⬛⬛⬛⬛⬛⬛🏽🏻⬜⬜⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜🏻⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🏼⬜⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🏻⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛🏻⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🏾⬛⬛⬛⬛⬛⬛⬛⬛🏽🏼🏽⬛⬛🏼⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🏽⬛⬛🏽🏽🏽🏽🏽🏼🏻🏻🏻🏼⬛🏽⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🏽⬛🏻🏻🏼🏼🏼🏼🏼🏼🏼🏻🏻🏽🏿⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬛⬛⬜🏻🏼🏼🏼🏼🏼🏻🏻🏻🏻🏽⬛⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🟩🏾🏻🏻🏻🏻🏻🏻🏻🏻🏻🏻🏻🏼🏿🏻⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🟩🏻⬜🏻🏼🏼🏼🏼🏼🏽🏾🏽🏼🏻🏽🏻⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🏼🟩🏻🏾⬛🏿🏾🏼🟫⬛⬛🏿🏾🏻🏻🏻⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🏻🏻🏼🏾🏿⬛🏿🏼🏽⬛⬛🏿🏾🏼🏻🏻⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🏻🏻🏼🏾⬛⬛🏿🏼🏻🏿🏿🏿🏽🏼🏻🏻⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜🏻🏻🏼🏽🏽🏽🏻🏻🏼🏼🏼🏻🏻🏻🏻⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜🏻🏼🏼🏼🏼🏻🏻🏻🏼🏼🏻🏻🏻🏻⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜🏻🏻🏼🏼🟫🏼🏻🏼🏼🏼🏾🟫🏼🏻⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜🏻🏻🏽🏾🏾🏽🏽🟫🏾🏽🟫🏾🏽🏼🏻⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜🏻🟫🏿🏽🏽🏽🏾🏾🏾🏿🏿🏽🏼⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜🏻🏼🏽🏾🏿🏾🏽🏽🏽🏽🏾🏾🏽🏻⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜🏻🏼🏽🏽🏼🏼🟫🟫🏼🏼🏽🏼🏻⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜🏻🏼🏽🏽🏼🏼🟫🏾🏽🏽🏽🏼⬜⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜⬜🏻🏽🏼🏼🏼🏼🏼🏼🏼🏼🏻⬜⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜⬜🏽🏻🏼🏽🏽🏼🏽🏽🏽🏽🏼🏻⬜⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜⬜🏼⬛🏽🏼🏽🏾🏾🏾🏾🟫🏽🏼🏼🏾⬜⬜⬜⬜⬜⬜⬜
-⬜⬜⬜⬜⬜⬜🟩🏾⬛⬛🏼🏽🏽🏽🏾🟫🏽🏼🏻🏽⬛🟩🏻⬜🏻🏼🟩🏼
-⬜⬜⬜🏻🏽⬛⬛🏿⬛⬛🏿🏼🏽🏽🏽🏽🏼🏼🏼🟫⬛🏾🏾🏾🟩🏼🟩🏼
-⬜🏻🏽⬛⬛⬛⬛⬛⬛⬛⬛🏾🏽🏽🏽🏽🏼🏼🏼🟫⬛🏿🏾🏾🏿🏾🏽🟩
-```
-
 Co-Founder & Head of Technology at **Adelev8** in Bengaluru, India.
 
 I build and operate production systems end to end: the venue-operations software for [Bigg Bounce](https://biggbounce.com) (a 30,000 sq ft entertainment park running direct ticketing, self-service kiosks, cashier POS, ESC/POS thermal printing, QR turnstiles, Razorpay UPI reconciliation, and rain-day ticket transfers; Rs 80 lakh+ recorded across 2,900+ paid bookings and 6,500+ POS orders in its first 20 days, backed by 46 Postgres migrations), client commerce and ERP stacks, [Quantiti](https://q.prince.sh), and a five-node Linux fleet (26 CPUs, 105.7 GiB RAM, 51 Docker containers, 49 PM2 services, ~134 nginx hostnames).
@@ -60,6 +29,15 @@ Zero-dependency CLIs and web tools for teams shipping with coding agents and Mod
 - [mcp-tax](https://github.com/princejain756/mcp-tax) (`npx mcp-tax`) - see how many tokens your MCP servers burn before you type a word.
 - [MaintainerOS](https://github.com/princejain756/MaintainerOS) - a command center for open-source maintainers: repo health, stale backlog, security readiness, issue triage, PR review, and GitHub Actions reports. Live at [maintaineros.prince.sh](https://maintaineros.prince.sh).
 - [dep-census](https://github.com/princejain756/dep-census) & [readmeroast](https://github.com/princejain756/readmeroast) - dependency maintainer census for `node_modules` and automated GitHub README grading.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=princejain756&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true">
+  <img src="https://github-readme-stats.vercel.app/api?username=princejain756&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" height="160">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=princejain756&layout=compact&theme=github_dark&hide_border=true&langs_count=8">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princejain756&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="160">
+</picture>
 
 ## Elsewhere
 
