@@ -30,16 +30,19 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 
 ## Upstream
 
-26 PRs merged across query engines, compilers, drivers, and SDKs:
+30 PRs merged across query engines, compilers, drivers, and SDKs:
 
 - **Vercel AI SDK (TypeScript):** MCP tool-output serialization fix carried into [vercel/ai#23935](https://github.com/vercel/ai/pull/23935) (merged with co-author credit); root-cause reproductions in [#23819](https://github.com/vercel/ai/pull/23819), [#23830](https://github.com/vercel/ai/pull/23830), [#23834](https://github.com/vercel/ai/pull/23834).
-- **apache/datafusion (Rust):** correlated-subquery decorrelation [#26551](https://github.com/apache/datafusion/pull/26551) merged, plus [#26699](https://github.com/apache/datafusion/pull/26699), [#26636](https://github.com/apache/datafusion/pull/26636), [#26693](https://github.com/apache/datafusion/pull/26693), [#26740](https://github.com/apache/datafusion/pull/26740); dialect AST display in [datafusion-sqlparser-rs#2709](https://github.com/apache/datafusion-sqlparser-rs/pull/2709).
-- **apache/arrow-rs (Rust):** record-batch interleaving [#11845](https://github.com/apache/arrow-rs/pull/11845) merged; sparse dictionary row encoding [#11904](https://github.com/apache/arrow-rs/pull/11904).
-- **lancedb (Node/Python):** SDK fixes [#4584](https://github.com/lancedb/lancedb/pull/4584) merged, [#4631](https://github.com/lancedb/lancedb/pull/4631).
+- **apache/datafusion (Rust):** correlated-subquery decorrelation [#26551](https://github.com/apache/datafusion/pull/26551) merged.
+- **apache/arrow-rs (Rust):** record-batch interleaving [#11845](https://github.com/apache/arrow-rs/pull/11845) merged.
+- **lancedb (Node/Python):** SDK fixes [#4584](https://github.com/lancedb/lancedb/pull/4584), [#4586](https://github.com/lancedb/lancedb/pull/4586) merged.
 - **oxc (Rust):** linter AST traversal and WHATWG autofill rules, [#28008](https://github.com/oxc-project/oxc/pull/28008) merged, [#28109](https://github.com/oxc-project/oxc/pull/28109), [#28110](https://github.com/oxc-project/oxc/pull/28110).
 - **JSqlParser (Java):** 6 merged SQL grammar/AST fixes, [#2838](https://github.com/JSQLParser/JSqlParser/pull/2838) through [#2843](https://github.com/JSQLParser/JSqlParser/pull/2843).
-- **Pebble (Java):** 4 template-engine fixes merged, [#842](https://github.com/PebbleTemplates/pebble/pull/842), [#843](https://github.com/PebbleTemplates/pebble/pull/843), [#846](https://github.com/PebbleTemplates/pebble/pull/846), [#847](https://github.com/PebbleTemplates/pebble/pull/847) - #843 closed a bug open since 2021. Also [Handlebars.java#1200](https://github.com/jknack/handlebars.java/pull/1200), [#1201](https://github.com/jknack/handlebars.java/pull/1201) merged.
+- **Pebble (Java):** 5 template-engine fixes merged, [#842](https://github.com/PebbleTemplates/pebble/pull/842), [#843](https://github.com/PebbleTemplates/pebble/pull/843), [#846](https://github.com/PebbleTemplates/pebble/pull/846), [#847](https://github.com/PebbleTemplates/pebble/pull/847), [#845](https://github.com/PebbleTemplates/pebble/pull/845) - #843 closed a bug open since 2021. Also [Handlebars.java#1200](https://github.com/jknack/handlebars.java/pull/1200), [#1201](https://github.com/jknack/handlebars.java/pull/1201) merged.
 - **connectrpc/connect-es (TypeScript):** HTTP/2 session state handling [#1849](https://github.com/connectrpc/connect-es/pull/1849) merged.
+- **rakazo (TypeScript):** 7 merged fixes in [#2125](https://github.com/elie222/rakazo/pull/2125)-[#2138](https://github.com/elie222/rakazo/pull/2138).
+- **tokio-rs/bytes (Rust):** minimal-versions CI check + serde floor [#863](https://github.com/tokio-rs/bytes/pull/863) merged.
+- **sqlalchemy (Python):** inspect() overload raiseerr fix [#13710](https://github.com/sqlalchemy/sqlalchemy/pull/13710) merged via Gerrit.
 - **redis/lettuce (Java):** connection state handling [#3966](https://github.com/redis/lettuce/pull/3966) merged.
 - **In review:** explicit `columnVisibility` on parent columns in [TanStack/table#6639](https://github.com/TanStack/table/pull/6639); `Mount.url_path_for` and `URL.replace` fixes in [starlette](https://github.com/Kludex/starlette) ([#3710](https://github.com/Kludex/starlette/pull/3710), [#3711](https://github.com/Kludex/starlette/pull/3711)); GPU-budget accounting in [ray#67229](https://github.com/ray-project/ray/pull/67229); run-metadata JSON parsing in [trigger.dev#5052](https://github.com/triggerdotdev/trigger.dev/pull/5052); `inspect()` overloads in [SQLAlchemy#13710](https://github.com/sqlalchemy/sqlalchemy/pull/13710); C-extension mapping conversion in [msgspec#1302](https://github.com/jcrist/msgspec/pull/1302); symbol resolution in [pmd#7225](https://github.com/pmd/pmd/pull/7225).
 
