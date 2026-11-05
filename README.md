@@ -21,6 +21,7 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 - [coldstart](https://github.com/princejain756/coldstart) (`npx coldstart-cli`) - replays your README's install instructions in a clean clone and reports the exact step where a new user hits a wall.
 - [readmeroast](https://github.com/princejain756/readmeroast) (`npx readmeroast you/yourrepo`) - scores any GitHub README out of 100 and roasts what it's missing.
 - [slopsieve](https://github.com/princejain756/slopsieve) (`npx slopsieve`) - score a diff or PR for 15 AI-slop review signals: test weakening, secret leaks, phantom imports, debug leftovers, dead exports. Also in Rust: [slopsieve-rs](https://github.com/princejain756/slopsieve-rs).
+- [uislop](https://github.com/princejain756/uislop) (`npx uislop`) - static linter for React, Next.js, Vue, Svelte, and Tailwind that scores frontend files for 16 "vibecoded" AI UI tells (indigo/violet palette dominance, hardcoded Unsplash stock avatars, fake `"10,000+ developers"` social proof, Lucide icon-in-tinted-box cards, and dead `href="#"` links).
 - [dep-census](https://github.com/princejain756/dep-census) - who actually maintains the code inside your `node_modules`.
 
 ## Live systems
