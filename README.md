@@ -9,7 +9,7 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 ## Agent infra & diagnostics
 
 - [ctxvitals](https://github.com/princejain756/ctxvitals) (`npx ctxvitals`) - a Lighthouse for your AI agent stack: measures the real token cost of MCP servers, skills, and rules; flags security issues and duplicates; grades the setup A-F.
-- [compactsim](https://github.com/princejain756/compactsim) (`npx github:princejain756/compactsim`) - replays local Claude Code and Codex transcripts to measure Context Rent (`payload_tokens * turns_carried`), catch post-compaction amnesia re-reads, and simulate `autoCompactWindow` thresholds before you edit `settings.json`.
+- [compactsim](https://github.com/princejain756/compactsim) (`npx compactsim`) - replays local Claude Code and Codex transcripts to measure Context Rent (`payload_tokens * turns_carried`), catch post-compaction amnesia re-reads, and simulate `autoCompactWindow` thresholds before you edit `settings.json`.
 - [agent-trials](https://github.com/princejain756/agent-trials) (`npx agent-trials`) - run the same JSON task suite through every coding agent CLI you have installed (Claude Code, Codex, Gemini) in sandboxed repo copies; scoreboard of who passed, how long they took, what it cost.
 - [ruleherd](https://github.com/princejain756/ruleherd) (`npx ruleherd`) - audits `CLAUDE.md`, `AGENTS.md`, `.cursor/rules` and friends for contradictions, dead file references, and copy-pasted rules that drifted apart. Also in Rust: [ruleherd-rs](https://github.com/princejain756/ruleherd-rs).
 - [mcp-tax](https://github.com/princejain756/mcp-tax) (`npx mcp-tax-cli`) - how many tokens your MCP servers burn before you type a word. Also in Rust: [mcp-tax-rs](https://github.com/princejain756/mcp-tax-rs).
