@@ -14,6 +14,7 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 - [ruleherd](https://github.com/princejain756/ruleherd) (`npx ruleherd`) - audits `CLAUDE.md`, `AGENTS.md`, `.cursor/rules` and friends for contradictions, dead file references, and copy-pasted rules that drifted apart. Also in Rust: [ruleherd-rs](https://github.com/princejain756/ruleherd-rs).
 - [mcp-tax](https://github.com/princejain756/mcp-tax) (`npx mcp-tax-cli`) - how many tokens your MCP servers burn before you type a word. Also in Rust: [mcp-tax-rs](https://github.com/princejain756/mcp-tax-rs).
 - [mcp-bouncer](https://github.com/princejain756/mcp-bouncer) (`npx mcp-bouncer`) - policy-enforcement proxy for stdio MCP servers: tool allowlists, method gating, path traversal and SSRF blocking, rate limits, JSONL audit logs.
+- [agentblast](https://github.com/princejain756/agentblast) (`npx agentblast`) - two-plane blast-radius auditor for Claude Code and Codex CLI: checks `~/.claude/settings.json` and `~/.codex/config.toml` for plaintext API keys and missing deny rules, replays session transcripts to catch unrestricted `ssh root@` calls, non-`/tmp` `rm -rf`, and `.env` reads, and emits least-privilege permission policies.
 - [canimcp](https://github.com/princejain756/canimcp) (`npx canimcp`) - preflight checker for MCP servers: which clients silently drop or mangle your tools, checked against a versioned quirks corpus (Claude Code, Cursor, Codex, Windsurf, Zed, Continue).
 
 ## Developer experience & CLIs
