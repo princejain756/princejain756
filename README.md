@@ -1,4 +1,4 @@
-Co-Founder & Head of Technology at **Adelev8** in Bengaluru, India.
+Full Stack Software Engineer at **Adelev8** in Bengaluru, India.
 
 I build diagnostic tooling and CLIs for people shipping with AI agents: token cost meters, agent benchmarks, fresh-clone replay, instruction-file audits.
 
