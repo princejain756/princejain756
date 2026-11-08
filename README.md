@@ -37,9 +37,10 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 
 ## Upstream
 
-30 PRs merged across query engines, compilers, drivers, and SDKs:
+32 PRs merged across query engines, compilers, drivers, and SDKs:
 
 - **Vercel AI SDK (TypeScript):** MCP tool-output serialization fix carried into [vercel/ai#23935](https://github.com/vercel/ai/pull/23935) (merged with co-author credit); root-cause reproductions in [#23819](https://github.com/vercel/ai/pull/23819), [#23830](https://github.com/vercel/ai/pull/23830), [#23834](https://github.com/vercel/ai/pull/23834).
+- **NousResearch/hermes-agent (Python):** sibling-site authority profile regression tests carried into [NousResearch/hermes-agent#150992](https://github.com/NousResearch/hermes-agent/pull/150992) (with co-author credit); active PRs [#146938](https://github.com/NousResearch/hermes-agent/pull/146938), [#146940](https://github.com/NousResearch/hermes-agent/pull/146940).
 - **apache/datafusion (Rust):** correlated-subquery decorrelation [#26551](https://github.com/apache/datafusion/pull/26551) merged.
 - **apache/arrow-rs (Rust):** record-batch interleaving [#11845](https://github.com/apache/arrow-rs/pull/11845) merged.
 - **lancedb (Node/Python):** SDK fixes [#4584](https://github.com/lancedb/lancedb/pull/4584), [#4586](https://github.com/lancedb/lancedb/pull/4586) merged.
@@ -47,11 +48,11 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 - **JSqlParser (Java):** 6 merged SQL grammar/AST fixes, [#2838](https://github.com/JSQLParser/JSqlParser/pull/2838) through [#2843](https://github.com/JSQLParser/JSqlParser/pull/2843).
 - **Pebble (Java):** 5 template-engine fixes merged, [#842](https://github.com/PebbleTemplates/pebble/pull/842), [#843](https://github.com/PebbleTemplates/pebble/pull/843), [#846](https://github.com/PebbleTemplates/pebble/pull/846), [#847](https://github.com/PebbleTemplates/pebble/pull/847), [#845](https://github.com/PebbleTemplates/pebble/pull/845) - #843 closed a bug open since 2021. Also [Handlebars.java#1200](https://github.com/jknack/handlebars.java/pull/1200), [#1201](https://github.com/jknack/handlebars.java/pull/1201) merged.
 - **connectrpc/connect-es (TypeScript):** HTTP/2 session state handling [#1849](https://github.com/connectrpc/connect-es/pull/1849) merged.
-- **rakazo (TypeScript):** 8 merged fixes in [#2125](https://github.com/elie222/rakazo/pull/2125)-[#2138](https://github.com/elie222/rakazo/pull/2138).
+- **rakazo (TypeScript):** 8 merged fixes in [#2125](https://github.com/elie222/rakazo/pull/2125)-[#2138](https://github.com/elie222/rakazo/pull/2138). Also [skardela#12](https://github.com/utk09-NCL/skardela/pull/12), [#13](https://github.com/utk09-NCL/skardela/pull/13) merged.
 - **tokio-rs/bytes (Rust):** minimal-versions CI check + serde floor [#863](https://github.com/tokio-rs/bytes/pull/863) merged.
 - **sqlalchemy (Python):** preserve recursive CTEs through `union().select()` [#13710](https://github.com/sqlalchemy/sqlalchemy/pull/13710) merged via Gerrit.
 - **redis/lettuce (Java):** connection state handling [#3966](https://github.com/redis/lettuce/pull/3966) merged.
-- **In review:** structured logging arguments in [pmd#7225](https://github.com/pmd/pmd/pull/7225) (approved); GPU-budget accounting in [ray#67229](https://github.com/ray-project/ray/pull/67229); C-extension mapping conversion in [msgspec#1302](https://github.com/jcrist/msgspec/pull/1302); explicit `columnVisibility` on parent columns in [TanStack/table#6639](https://github.com/TanStack/table/pull/6639); run-metadata JSON parsing in [trigger.dev#5052](https://github.com/triggerdotdev/trigger.dev/pull/5052); gateway profile resolution and cron recovery in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ([#145834](https://github.com/NousResearch/hermes-agent/pull/145834), [#146938](https://github.com/NousResearch/hermes-agent/pull/146938), [#146940](https://github.com/NousResearch/hermes-agent/pull/146940)).
+- **In review:** Mistral error classification in [pydantic-ai#12864](https://github.com/pydantic/pydantic-ai/pull/12864); wait-option validation in [vercel-labs/agent-desktop#610](https://github.com/vercel-labs/agent-desktop/pull/610); structured logging arguments in [pmd#7225](https://github.com/pmd/pmd/pull/7225) (approved); GPU-budget accounting in [ray#67229](https://github.com/ray-project/ray/pull/67229); C-extension mapping conversion in [msgspec#1302](https://github.com/jcrist/msgspec/pull/1302); explicit `columnVisibility` on parent columns in [TanStack/table#6639](https://github.com/TanStack/table/pull/6639); run-metadata JSON parsing in [trigger.dev#5052](https://github.com/triggerdotdev/trigger.dev/pull/5052).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=princejain756&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true">
