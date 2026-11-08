@@ -32,7 +32,7 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 ## Live systems
 
 - [MaintainerOS](https://github.com/princejain756/MaintainerOS) - command center for open-source maintainers: repo health, stale backlog, security readiness, issue triage, PR review, Actions reports. Live at [maintaineros.prince.sh](https://maintaineros.prince.sh).
-- [Quantiti](https://q.prince.sh) - live trading journal with real Zerodha Kite order routing.
+- [Quantiti](https://quantiti.prince.sh) - live trading journal with real Zerodha Kite order routing.
 - Day job: built and still operate the full stack for [Bigg Bounce](https://biggbounce.com), a 30,000 sq ft entertainment park in Bengaluru - ticketing site, self-service kiosks, POS, QR turnstiles, Razorpay UPI reconciliation, rain-day transfers. Rs 80 lakh+ recorded across 2,900+ paid bookings and 6,500+ POS orders in its first 20 days, backed by 46 Postgres migrations and a five-node Linux fleet.
 
 ## Upstream
@@ -65,4 +65,4 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 
 ## Elsewhere
 
-[Portfolio (w.prince.sh)](https://w.prince.sh/website) · [Engineering Dossier](https://princejain756.github.io) · [MaintainerOS](https://maintaineros.prince.sh) · [Quantiti](https://q.prince.sh) · [LinkedIn](https://www.linkedin.com/in/princejainai/) · [X](https://x.com/princejain756) · mail@prince.sh
+[Portfolio (w.prince.sh)](https://w.prince.sh/website) · [Engineering Dossier](https://princejain756.github.io) · [MaintainerOS](https://maintaineros.prince.sh) · [Quantiti](https://quantiti.prince.sh) · [LinkedIn](https://www.linkedin.com/in/princejainai/) · [X](https://x.com/princejain756) · mail@prince.sh
