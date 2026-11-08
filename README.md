@@ -55,12 +55,12 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 - **In review:** prefixed-model catalog lookup in [litellm#50645](https://github.com/BerriAI/litellm/pull/50645); VBAR `CombinedLinear` FP8/NVFP4 & unprefetched encode guards in [ComfyUI#17617](https://github.com/Comfy-Org/ComfyUI/pull/17617); streamed tool-call preservation in [agno#11526](https://github.com/agno-agi/agno/pull/11526); SpanQuery projection ordering in [Arize-ai/phoenix#17746](https://github.com/Arize-ai/phoenix/pull/17746); Mistral error classification in [pydantic-ai#12864](https://github.com/pydantic/pydantic-ai/pull/12864); git worktree resolution in [trigger.dev#5105](https://github.com/triggerdotdev/trigger.dev/pull/5105) and run-metadata JSON parsing in [trigger.dev#5052](https://github.com/triggerdotdev/trigger.dev/pull/5052); wait-option validation in [vercel-labs/agent-desktop#610](https://github.com/vercel-labs/agent-desktop/pull/610); `MaybeReversedEdgeReference` accessors in [petgraph#1066](https://github.com/petgraph/petgraph/pull/1066); structured logging arguments in [pmd#7225](https://github.com/pmd/pmd/pull/7225) (approved); GPU-budget accounting in [ray#67229](https://github.com/ray-project/ray/pull/67229); C-extension mapping conversion in [msgspec#1302](https://github.com/jcrist/msgspec/pull/1302); explicit `columnVisibility` on parent columns in [TanStack/table#6639](https://github.com/TanStack/table/pull/6639).
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=princejain756&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github&include_all_commits=true">
-  <img src="https://github-readme-stats.vercel.app/api?username=princejain756&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" height="160">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
+  <img src="./assets/stats-light.svg" alt="GitHub stats" height="160">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=princejain756&layout=compact&theme=github_dark&hide_border=true&langs_count=8&hide=css,html,vue,mdx">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=princejain756&layout=compact&hide_border=true&langs_count=8&hide=css,html,vue,mdx" alt="Top languages" height="160">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/top-langs-dark.svg">
+  <img src="./assets/top-langs-light.svg" alt="Top languages" height="160">
 </picture>
 
 ## Elsewhere

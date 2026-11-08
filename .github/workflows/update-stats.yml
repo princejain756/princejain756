@@ -1,0 +1,88 @@
+name: Update GitHub Stats SVGs
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate stats and top-langs SVGs
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/grs
+          cd /tmp/grs
+          npm install --omit=dev --ignore-scripts
+          node -e '
+            import fs from "node:fs";
+            let code = fs.readFileSync("./src/fetchers/top-languages.js", "utf8");
+            code = code.replace("isFork: false, first: 100", "isFork: false, privacy: PUBLIC, first: 100");
+            fs.writeFileSync("./src/fetchers/top-languages.js", code);
+          '
+          node -e '
+            import { fetchStats } from "./src/fetchers/stats.js";
+            import { renderStatsCard } from "./src/cards/stats.js";
+            import { fetchTopLanguages } from "./src/fetchers/top-languages.js";
+            import { renderTopLanguages } from "./src/cards/top-languages.js";
+            import fs from "node:fs";
+
+            const username = "princejain756";
+            const stats = await fetchStats(username, true, [], false, false, false);
+            const topLangs = await fetchTopLanguages(username, [], 1, 0);
+            const outDir = "${{ github.workspace }}/assets";
+            fs.mkdirSync(outDir, { recursive: true });
+
+            fs.writeFileSync(`${outDir}/stats-light.svg`, renderStatsCard(stats, {
+              show_icons: true,
+              hide_border: true,
+              rank_icon: "github",
+              include_all_commits: true,
+            }));
+
+            fs.writeFileSync(`${outDir}/stats-dark.svg`, renderStatsCard(stats, {
+              show_icons: true,
+              theme: "github_dark",
+              hide_border: true,
+              rank_icon: "github",
+              include_all_commits: true,
+            }));
+
+            fs.writeFileSync(`${outDir}/top-langs-light.svg`, renderTopLanguages(topLangs, {
+              layout: "compact",
+              hide_border: true,
+              langs_count: 8,
+              hide: ["css", "html", "vue", "mdx"],
+            }));
+
+            fs.writeFileSync(`${outDir}/top-langs-dark.svg`, renderTopLanguages(topLangs, {
+              layout: "compact",
+              theme: "github_dark",
+              hide_border: true,
+              langs_count: 8,
+              hide: ["css", "html", "vue", "mdx"],
+            }));
+          '
+
+      - name: Commit and push updated SVGs
+        run: |
+          git config user.name "Prince Jain"
+          git config user.email "princejain756@gmail.com"
+          git add assets/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh GitHub stats and top-languages SVG cards"
+            git push
+          fi
