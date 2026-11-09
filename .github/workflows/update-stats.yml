@@ -33,7 +33,10 @@ jobs:
             topLangsCode = topLangsCode.replace("isFork: false, first: 100", "isFork: false, privacy: PUBLIC, first: 100");
             fs.writeFileSync("./src/fetchers/top-languages.js", topLangsCode);
             let statsCode = fs.readFileSync("./src/fetchers/stats.js", "utf8");
-            statsCode = statsCode.replace("ownerAffiliations: OWNER, orderBy:", "ownerAffiliations: OWNER, privacy: PUBLIC, orderBy:");
+            statsCode = statsCode
+              .replace("ownerAffiliations: OWNER, orderBy:", "ownerAffiliations: OWNER, privacy: PUBLIC, orderBy:")
+              .replace(/stargazers\s*\{\s*totalCount\s*\}/, "stargazerCount")
+              .replaceAll("stargazers.totalCount", "stargazerCount");
             fs.writeFileSync("./src/fetchers/stats.js", statsCode);
           '
           node -e '
