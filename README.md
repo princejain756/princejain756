@@ -2,6 +2,8 @@ Full Stack Software Engineer at **Adelev8** in Bengaluru, India.
 
 I build diagnostic tooling and CLIs for people shipping with AI agents: token cost meters, agent benchmarks, fresh-clone replay, instruction-file audits.
 
+Portfolio: [w.prince.sh/website](https://w.prince.sh/website) · Writing: [princejain756.substack.com](https://princejain756.substack.com) · X: [@princejain756](https://x.com/princejain756) · Dev.to: [dev.to/princejain756](https://dev.to/princejain756)
+
 ![ctxvitals auditing a real agent stack](https://raw.githubusercontent.com/princejain756/ctxvitals/main/demo.gif)
 
 That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP servers spend 138,940 tokens before the model reads a word. Grade: F. That number is why these tools exist.
