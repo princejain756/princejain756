@@ -2,7 +2,7 @@ Full Stack Software Engineer at **Adelev8** in Bengaluru, India.
 
 I build diagnostic tooling and CLIs for people shipping with AI agents: token cost meters, agent benchmarks, fresh-clone replay, instruction-file audits.
 
-Portfolio: [w.prince.sh/website](https://w.prince.sh/website) · Writing: [princejain756.substack.com](https://princejain756.substack.com) · X: [@princejain756](https://x.com/princejain756) · Dev.to: [dev.to/princejain756](https://dev.to/princejain756)
+Portfolio: [w.prince.sh/website](https://w.prince.sh/website) · Writing: [medium.com/@prince.sh](https://medium.com/@prince.sh) · X: [@princejain756](https://x.com/princejain756) · Dev.to: [dev.to/princejain756](https://dev.to/princejain756)
 
 ![ctxvitals auditing a real agent stack](https://raw.githubusercontent.com/princejain756/ctxvitals/main/demo.gif)
 
