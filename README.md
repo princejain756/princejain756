@@ -35,7 +35,7 @@ That's a real `npx ctxvitals` run on my own machine: 886 skills and 14 MCP serve
 
 - [MaintainerOS](https://github.com/princejain756/MaintainerOS) - command center for open-source maintainers: repo health, stale backlog, security readiness, issue triage, PR review, Actions reports. Live at [maintaineros.prince.sh](https://maintaineros.prince.sh).
 - [Quantiti](https://quantiti.prince.sh) - live trading journal with real Zerodha Kite order routing.
-- Day job: built and still operate the full stack for [Bigg Bounce](https://biggbounce.com), a 30,000 sq ft entertainment park in Bengaluru - ticketing site, self-service kiosks, POS, QR turnstiles, Razorpay UPI reconciliation, rain-day transfers. 10,238 transactions recorded across 3,526 paid bookings and 7,116 POS orders, peaking at 994 tickets and 937 gate check-ins, backed by 46 Postgres migrations and a five-node Linux fleet.
+- Day job: built and still operate the full stack for [Bigg Bounce](https://biggbounce.com), a 30,000 sq ft entertainment park in Bengaluru - ticketing site, self-service kiosks, POS, QR turnstiles, Razorpay UPI reconciliation, rain-day transfers. 10,238 transactions recorded across 3,526 paid bookings and 7,116 POS orders, peaking at 994 tickets and 937 gate check-ins, backed by 46 Postgres migrations and a five-node Linux fleet; scaled organic Search Console to 31.1k clicks (31.6% CTR, 3.2 avg pos) and Meta CAPI to 10.08x-10.97x ROAS (3.77% CTR).
 
 ## Upstream
 
